@@ -1,0 +1,13 @@
+<?php $exp = 1732111574; $val = array (
+  'domain' => NULL,
+  'plural-forms' => NULL,
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.block.developedBy.displayName' => 'Блок «Разработано»',
+      'plugins.block.developedBy.description' => 'Добавляет ссылку «Разработано» на боковую панель.',
+      'plugins.block.developedBy.blockTitle' => 'Разработано',
+    ),
+  ),
+);

@@ -1,0 +1,20 @@
+<?php $exp = 1732111574; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.block.subscription.displayName' => 'Блок «Подписка»',
+      'plugins.block.subscription.description' => 'Этот модуль добавляет информацию о подписке на боковую панель.',
+      'plugins.block.subscription.blockTitle' => 'Подписка',
+      'plugins.block.subscription.expires' => 'Дата окончания',
+      'plugins.block.subscription.providedBy' => 'Доступ предоставлен: {$institutionName}',
+      'plugins.block.subscription.comingFromIP' => 'Вход с IP-адреса: {$ip}',
+      'plugins.block.subscription.about' => 'Подписки',
+      'plugins.block.subscription.loginToVerifySubscription' => 'Войти в систему, чтобы получить доступ к ресурсам для подписчиков.',
+      'plugins.block.subscription.subscriptionRequired' => 'Для доступа к некоторым ресурсам нужна подписка.',
+      'plugins.block.subscription.subscriptionRequired.learnMore' => 'Узнать больше',
+    ),
+  ),
+);

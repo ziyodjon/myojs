@@ -1,0 +1,12 @@
+<?php $exp = 1732111574; $val = array (
+  'domain' => NULL,
+  'plural-forms' => NULL,
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.OAIMetadata.rfc1807.displayName' => 'Модуль «Формат метаданных RFC1807»',
+      'plugins.OAIMetadata.rfc1807.description' => 'Структурирует метаданные таким образом, чтобы они соответствовали формату RFC1807.',
+    ),
+  ),
+);

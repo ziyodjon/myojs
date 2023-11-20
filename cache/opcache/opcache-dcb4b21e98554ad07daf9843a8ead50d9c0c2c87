@@ -1,0 +1,12 @@
+<?php $exp = 1732111574; $val = array (
+  'domain' => NULL,
+  'plural-forms' => NULL,
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.oaiMetadata.dc.displayName' => 'Модуль «Формат метаданных DC»',
+      'plugins.oaiMetadata.dc.description' => 'Структурирует метаданные таким образом, что они соответствуют формату Dublin Core.',
+    ),
+  ),
+);

@@ -1,0 +1,19 @@
+<?php $exp = 1732111574; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'emails.manualPaymentNotification.subject' => 'Уведомление о платеже',
+      'emails.manualPaymentNotification.body' => 'Необходимо вручную обработать платеж для журнала «{$contextName}» и пользователя {$senderName} (имя пользователя «{$senderUsername}»).<br />
+<br />
+Оплата вносится за «{$paymentName}».<br />
+Сумма {$paymentAmount} ({$paymentCurrencyCode}).<br />
+<br />
+Это письмо сгенерировано модулем «Ввод оплаты вручную» системы Open Journal Systems.',
+      'emails.manualPaymentNotification.description' => 'Этот шаблон письма используется для уведомления управляющего журналом о том, что был запрошен ввод оплаты вручную.',
+      'emailTemplate.variable.manualPaymentPlugin.senderUsername' => 'Логин пользователя, который произвёл оплату',
+    ),
+  ),
+);

@@ -1,0 +1,22 @@
+<?php $exp = 1732111574; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.reports.counter.description' => 'Модуль «COUNTER» позволяет сформировать отчеты об активности журнала, используя <a href="http://www.projectcounter.org">стандарт COUNTER</a>. Сами по себе эти отчеты не делают журнал соответствующим стандарту COUNTER. Чтобы сделать журнал соответствующим этому стандарту, просмотрите требования на сайте проекта COUNTER.',
+      'plugins.reports.counter' => 'Модуль «Отчеты COUNTER»',
+      'plugins.reports.counter.release' => 'Версия COUNTER Release',
+      'plugins.reports.counter.error.badParameters' => 'Неправильные параметры отчета.',
+      'plugins.reports.counter.error.badRequest' => 'Неправильный запрос отчета.',
+      'plugins.reports.counter.error.noResults' => 'Результаты для этого отчета не найдены.',
+      'plugins.reports.counter.error.noXML' => 'Не удается сформатировать результаты в XML.',
+      'plugins.reports.counter.1a.name' => 'Отчет COUNTER JR1 (R3)',
+      'plugins.reports.counter.1a.description' => 'COUNTER Отчет журнала 1 (R3): Запросы полных текстов статей по месяцам и журналам',
+      'plugins.reports.counter.allCustomers' => 'Все покупатели',
+      'plugins.reports.counter.ar1.title' => 'Отчет по статьям 1',
+      'plugins.reports.counter.jr1.title' => 'Отчет по журналам 1',
+    ),
+  ),
+);

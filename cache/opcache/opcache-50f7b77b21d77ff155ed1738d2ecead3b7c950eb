@@ -1,0 +1,20 @@
+<?php $exp = 1732111574; $val = array (
+  'domain' => NULL,
+  'plural-forms' => 'nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;',
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.paymethod.manual.displayName' => 'Модуль «Ввод оплаты вручную»',
+      'plugins.paymethod.manual.description' => 'Позволяет менеджеру вручную ввести информацию о платеже пользователя (оплату, прошедшую вне этой системы).',
+      'plugins.paymethod.manual' => 'Ввод оплаты вручную',
+      'plugins.paymethod.manual.settings' => 'Инструкции по вводу оплаты вручную',
+      'plugins.paymethod.manual.sendNotificationOfPayment' => 'Отправить уведомление о платеже',
+      'plugins.paymethod.manual.paymentNotification' => 'Уведомление о платеже',
+      'plugins.paymethod.manual.notificationSent' => 'Уведомление о платеже отправлено',
+      'plugins.paymethod.manual.purchase.title' => 'Название',
+      'plugins.paymethod.manual.purchase.fee' => 'Сумма',
+      'plugins.paymethod.manual.manualPaymentNotify.name' => 'Уведомить о вводе платежа вручную',
+    ),
+  ),
+);

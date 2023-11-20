@@ -1,0 +1,14 @@
+<?php $exp = 1732111574; $val = array (
+  'domain' => NULL,
+  'plural-forms' => NULL,
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.reports.subscriptions.displayName' => 'Модуль «Отчет о подписках»',
+      'plugins.reports.subscriptions.description' => 'Реализует отчет в формате CSV, содержащий список подписок и информацию о них.',
+      'plugins.reports.subscriptions.institutionMailingAddress' => 'Почтовый адрес организации',
+      'plugins.reports.subscriptions.ipRanges' => 'Диапазоны IP-адресов',
+    ),
+  ),
+);

@@ -1,0 +1,13 @@
+<?php $exp = 1732111574; $val = array (
+  'domain' => NULL,
+  'plural-forms' => NULL,
+  'messages' => 
+  array (
+    '' => 
+    array (
+      'plugins.block.makeSubmission.displayName' => 'Блок «Отправить материал»',
+      'plugins.block.makeSubmission.description' => 'Добавляет блок со ссылкой «Отправить материал» на боковую панель.',
+      'plugins.block.makeSubmission.linkLabel' => 'Отправить материал',
+    ),
+  ),
+);
