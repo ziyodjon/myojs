@@ -38,6 +38,8 @@ RUN chmod -R 755 /var/www/html/files
 RUN chown -R www-data:www-data /var/www/html
 RUN chmod -R 755 /var/www/html
 
+COPY ./cfg/000-default.conf /etc/apache2/sites-available/000-default.conf
+
 # Enable Apache modules
 RUN a2enmod rewrite
 
